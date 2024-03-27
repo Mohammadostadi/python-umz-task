@@ -1,0 +1,101 @@
+[
+    {
+        "label": "turtle",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "turtle",
+        "description": "turtle",
+        "detail": "turtle",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "task-1",
+        "description": "task-1",
+        "peekOfCode": "number = '0123456789'\nsample = input(\"Enter it:\")\nif sample in number :\n    x = int(sample)\n    print(\"type is number : \", x)\nelse:\n    print(\"wrong\")",
+        "detail": "task-1",
+        "documentation": {}
+    },
+    {
+        "label": "sample",
+        "kind": 5,
+        "importPath": "task-1",
+        "description": "task-1",
+        "peekOfCode": "sample = input(\"Enter it:\")\nif sample in number :\n    x = int(sample)\n    print(\"type is number : \", x)\nelse:\n    print(\"wrong\")",
+        "detail": "task-1",
+        "documentation": {}
+    },
+    {
+        "label": "variz",
+        "kind": 2,
+        "importPath": "task-2",
+        "description": "task-2",
+        "peekOfCode": "def variz():\n    global money\n    varizi = int(input(\"Enter U money : \"))\n    money += varizi\n    print(\"add successfully...\")\ndef bardasht():\n    global money\n    bardsht = int(input(\"Enter U money : \"))\n    money -= bardsht\n    print(\"bardasht successfully...\")",
+        "detail": "task-2",
+        "documentation": {}
+    },
+    {
+        "label": "bardasht",
+        "kind": 2,
+        "importPath": "task-2",
+        "description": "task-2",
+        "peekOfCode": "def bardasht():\n    global money\n    bardsht = int(input(\"Enter U money : \"))\n    money -= bardsht\n    print(\"bardasht successfully...\")\ndef mojodi():\n    global money\n    print(\"Mojodi\", money)\nwhile True :\n    userEntry = input  (\"\"\" ",
+        "detail": "task-2",
+        "documentation": {}
+    },
+    {
+        "label": "mojodi",
+        "kind": 2,
+        "importPath": "task-2",
+        "description": "task-2",
+        "peekOfCode": "def mojodi():\n    global money\n    print(\"Mojodi\", money)\nwhile True :\n    userEntry = input  (\"\"\" \n                        1- variz\n                        2- bardasht\n                        3- mojodi\n                        4- Exit\n                        Enter your choice ?",
+        "detail": "task-2",
+        "documentation": {}
+    },
+    {
+        "label": "money",
+        "kind": 5,
+        "importPath": "task-2",
+        "description": "task-2",
+        "peekOfCode": "money = 0\ndef variz():\n    global money\n    varizi = int(input(\"Enter U money : \"))\n    money += varizi\n    print(\"add successfully...\")\ndef bardasht():\n    global money\n    bardsht = int(input(\"Enter U money : \"))\n    money -= bardsht",
+        "detail": "task-2",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "task-3",
+        "description": "task-3",
+        "peekOfCode": "i = input(\"Type what you wanna do:\")\nif i == 'sum' :\n        x = int(input(\"Enter U first number:\"))\n        y = int(input(\"Enter U second number:\"))\n        sum = x + y\n        print(\"sum :\", sum)\nelif i == 'difference' :\n        x = int(input(\"Enter U first number:\"))\n        y = int(input(\"Enter U second number:\"))\n        difference = x - y",
+        "detail": "task-3",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "task-4",
+        "description": "task-4",
+        "peekOfCode": "i = int(input(\"Enter U choice : \"))\nif i == 1 :\n    C = int(input(\"Enter U number : \"))\n    F = ( C * 1.8 ) + 32\n    print(\"Darageh morede nazar : \", F)\nelif i == 2 :\n    F = int(input(\"Enter U number : \"))\n    C = ( F - 32 )/ 1.8\n    print(\"Darageh morede nazar : \", C)\nelse :",
+        "detail": "task-4",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "task-5",
+        "description": "task-5",
+        "peekOfCode": "x = turtle.Turtle()\ny = turtle.Screen()\ny.bgcolor(\"red\")\nfor i in range(4):\n    x.forward(85)\n    x.left(90)\ny.mainloop()",
+        "detail": "task-5",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "task-5",
+        "description": "task-5",
+        "peekOfCode": "y = turtle.Screen()\ny.bgcolor(\"red\")\nfor i in range(4):\n    x.forward(85)\n    x.left(90)\ny.mainloop()",
+        "detail": "task-5",
+        "documentation": {}
+    }
+]
